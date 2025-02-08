@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Proveedores</title>
+    <link rel="stylesheet" href="Jet extramar.css">
+</head>
+<body>
+<div class="category">
+    <h2>Jet extramar</h2>
+    <ul id="lista-productos">
+        <li>Ajos tiernos <div class="contador"><button onclick="decrementar('Ajos tiernos')">-</button><span>0</span><button onclick="incrementar('Ajos tiernos')">+</button></div></li>
+        <li>Albóndigas de cerdo <div class="contador"><button onclick="decrementar('Albóndigas de cerdo')">-</button><span>0</span><button onclick="incrementar('Albóndigas de cerdo')">+</button></div></li>
+        <li>Alcachofa troceada <div class="contador"><button onclick="decrementar('Alcachofa troceada')">-</button><span>0</span><button onclick="incrementar('Alcachofa troceada')">+</button></div></li>
+        <li>Arroz <div class="contador"><button onclick="decrementar('Arroz')">-</button><span>0</span><button onclick="incrementar('Arroz')">+</button></div></li>
+        <li>Boquerones limpios <div class="contador"><button onclick="decrementar('Boquerones limpios')">-</button><span>0</span><button onclick="incrementar('Boquerones limpios')">+</button></div></li>
+        <li>Canelones de carne <div class="contador"><button onclick="decrementar('Canelones de carne')">-</button><span>0</span><button onclick="incrementar('Canelones de carne')">+</button></div></li>
+        <li>Conejo troceado <div class="contador"><button onclick="decrementar('Conejo troceado')">-</button><span>0</span><button onclick="incrementar('Conejo troceado')">+</button></div></li>
+        <li>Habas baby <div class="contador"><button onclick="decrementar('Habas baby')">-</button><span>0</span><button onclick="incrementar('Habas baby')">+</button></div></li>
+        <li>Helado turron <div class="contador"><button onclick="decrementar('Helado turron')">-</button><span>0</span><button onclick="incrementar('Helado turron')">+</button></div></li>
+        <li>Judía verde troceado <div class="contador"><button onclick="decrementar('Judía verde troceado')">-</button><span>0</span><button onclick="incrementar('Judía verde troceado')">+</button></div></li>
+        <li>Longaniza <div class="contador"><button onclick="decrementar('Longaniza')">-</button><span>0</span><button onclick="incrementar('Longaniza')">+</button></div></li>
+        <li>Magro tacos <div class="contador"><button onclick="decrementar('Magro tacos')">-</button><span>0</span><button onclick="incrementar('Magro tacos')">+</button></div></li>
+        <li>Menestra de verduras <div class="contador"><button onclick="decrementar('Menestra de verduras')">-</button><span>0</span><button onclick="incrementar('Menestra de verduras')">+</button></div></li>
+        <li>Mezclum <div class="contador"><button onclick="decrementar('Mezclum')">-</button><span>0</span><button onclick="incrementar('Mezclum')">+</button></div></li>
+        <li>Migas de bacalao <div class="contador"><button onclick="decrementar('Migas de bacalao')">-</button><span>0</span><button onclick="incrementar('Migas de bacalao')">+</button></div></li>
+        <li>Morcilla <div class="contador"><button onclick="decrementar('Morcilla')">-</button><span>0</span><button onclick="incrementar('Morcilla')">+</button></div></li>
+        <li>Muslo de pavo <div class="contador"><button onclick="decrementar('Muslo de pavo')">-</button><span>0</span><button onclick="incrementar('Muslo de pavo')">+</button></div></li>
+        <li>Nata para cocinar <div class="contador"><button onclick="decrementar('Nata para cocinar')">-</button><span>0</span><button onclick="incrementar('Nata para cocinar')">+</button></div></li>
+        <li>Panceta fileteada <div class="contador"><button onclick="decrementar('Panceta fileteada')">-</button><span>0</span><button onclick="incrementar('Panceta fileteada')">+</button></div></li>
+        <li>Pinchos morunos <div class="contador"><button onclick="decrementar('Pinchos morunos')">-</button><span>0</span><button onclick="incrementar('Pinchos morunos')">+</button></div></li>
+        <li>Pollo troceado <div class="contador"><button onclick="decrementar('Pollo troceado')">-</button><span>0</span><button onclick="incrementar('Pollo troceado')">+</button></div></li>
+        <li>Preparado de arroces y sopas <div class="contador"><button onclick="decrementar('Preparado de arroces y sopas')">-</button><span>0</span><button onclick="incrementar('Preparado de arroces y sopas')">+</button></div></li>
+        <li>Salteado de setas <div class="contador"><button onclick="decrementar('Salteado de setas')">-</button><span>0</span><button onclick="incrementar('Salteado de setas')">+</button></div></li>
+        <li>Tomate natural rallado 1 litro <div class="contador"><button onclick="decrementar('Tomate natural rallado 1 litro')">-</button><span>0</span><button onclick="incrementar('Tomate natural rallado 1 litro')">+</button></div></li>
+        <li>Tronquito de merluza <div class="contador"><button onclick="decrementar('Tronquito de merluza')">-</button><span>0</span><button onclick="incrementar('Tronquito de merluza')">+</button></div></li>
+        <li>Tubo de calamar <div class="contador"><button onclick="decrementar('Tubo de calamar')">-</button><span>0</span><button onclick="incrementar('Tubo de calamar')">+</button></div></li>
+    </ul>
+</div>
+<h2>Cesta</h2>
+<ul id="cesta"></ul>
+<button onclick="enviarCesta()">Enviar Cesta</button>
+
+<script src="proveedores.js"></script>
+</body>
+</html>

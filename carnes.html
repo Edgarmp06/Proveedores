@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Carnes</title>
+    <link rel="stylesheet" href="carnes.css">
+</head>
+<body>
+    <div class="category">
+        <h2>Carnes</h2>
+        <ul id="lista-productos">
+            <li>Arreglo arroz horno <div class="contador"><button onclick="decrementar('Arreglo arroz horno')">-</button><span>0</span><button onclick="incrementar('Arreglo arroz horno')">+</button></div></li>
+            <li>Carrillada con hueso <div class="contador"><button onclick="decrementar('Carrillada con hueso')">-</button><span>0</span><button onclick="incrementar('Carrillada con hueso')">+</button></div></li>
+            <li>Chorizo de cocinar <div class="contador"><button onclick="decrementar('Chorizo de cocinar')">-</button><span>0</span><button onclick="incrementar('Chorizo de cocinar')">+</button></div></li>
+            <li>Churrasco ternera <div class="contador"><button onclick="decrementar('Churrasco ternera')">-</button><span>0</span><button onclick="incrementar('Churrasco ternera')">+</button></div></li>
+            <li>Codillo mitades <div class="contador"><button onclick="decrementar('Codillo mitades')">-</button><span>0</span><button onclick="incrementar('Codillo mitades')">+</button></div></li>
+            <li>Conejo troceado <div class="contador"><button onclick="decrementar('Conejo troceado')">-</button><span>0</span><button onclick="incrementar('Conejo troceado')">+</button></div></li>
+            <li>Costilla tiras <div class="contador"><button onclick="decrementar('Costilla tiras')">-</button><span>0</span><button onclick="incrementar('Costilla tiras')">+</button></div></li>
+            <li>Lomo cabeza <div class="contador"><button onclick="decrementar('Lomo cabeza')">-</button><span>0</span><button onclick="incrementar('Lomo cabeza')">+</button></div></li>
+            <li>Lomo chuletero <div class="contador"><button onclick="decrementar('Lomo chuletero')">-</button><span>0</span><button onclick="incrementar('Lomo chuletero')">+</button></div></li>
+            <li>Lomo cinta <div class="contador"><button onclick="decrementar('Lomo cinta')">-</button><span>0</span><button onclick="incrementar('Lomo cinta')">+</button></div></li>
+            <li>Muslos pollo <div class="contador"><button onclick="decrementar('Muslos pollo')">-</button><span>0</span><button onclick="incrementar('Muslos pollo')">+</button></div></li>
+            <li>Pechugas de pollo <div class="contador"><button onclick="decrementar('Pechugas de pollo')">-</button><span>0</span><button onclick="incrementar('Pechugas de pollo')">+</button></div></li>
+            <li>Picada cerdo <div class="contador"><button onclick="decrementar('Picada cerdo')">-</button><span>0</span><button onclick="incrementar('Picada cerdo')">+</button></div></li>
+            <li>Pollo troceado <div class="contador"><button onclick="decrementar('Pollo troceado')">-</button><span>0</span><button onclick="incrementar('Pollo troceado')">+</button></div></li>
+            <li>Redondo de pavo <div class="contador"><button onclick="decrementar('Redondo de pavo')">-</button><span>0</span><button onclick="incrementar('Redondo de pavo')">+</button></div></li>
+            <li>Secreto de cerdo <div class="contador"><button onclick="decrementar('Secreto de cerdo')">-</button><span>0</span><button onclick="incrementar('Secreto de cerdo')">+</button></div></li>
+            <li>Solomillo <div class="contador"><button onclick="decrementar('Solomillo')">-</button><span>0</span><button onclick="incrementar('Solomillo')">+</button></div></li>
+            <li>Ternera tacos <div class="contador"><button onclick="decrementar('Ternera tacos')">-</button><span>0</span><button onclick="incrementar('Ternera tacos')">+</button></div></li>
+        </ul>
+    </div>
+    <h2>Cesta</h2>
+    <ul id="cesta"></ul>
+    <button onclick="enviarCesta()">Enviar Cesta</button>
+
+    <script src="proveedores.js"></script>
+</body>
+</html>

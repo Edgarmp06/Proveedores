@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Proveedores</title>
+    <link rel="stylesheet" href="verduras.css">
+</head>
+<body>
+<div class="category">
+    <h2>Verduras</h2>
+    <ul id="lista-productos">
+        <li>Ajo secos <div class="contador"><button onclick="decrementar('Ajo secos')">-</button><span>0</span><button onclick="incrementar('Ajo secos')">+</button></div></li>
+        <li>Albahaca <div class="contador"><button onclick="decrementar('Albahaca')">-</button><span>0</span><button onclick="incrementar('Albahaca')">+</button></div></li>
+        <li>Berengena <div class="contador"><button onclick="decrementar('Berengena')">-</button><span>0</span><button onclick="incrementar('Berengena')">+</button></div></li>
+        <li>Calabacin <div class="contador"><button onclick="decrementar('Calabacin')">-</button><span>0</span><button onclick="incrementar('Calabacin')">+</button></div></li>
+        <li>Cebolla <div class="contador"><button onclick="decrementar('Cebolla')">-</button><span>0</span><button onclick="incrementar('Cebolla')">+</button></div></li>
+        <li>Fruta del tiemo <div class="contador"><button onclick="decrementar('Fruta del tiemo')">-</button><span>0</span><button onclick="incrementar('Fruta del tiemo')">+</button></div></li>
+        <li>Lechuga <div class="contador"><button onclick="decrementar('Lechuga')">-</button><span>0</span><button onclick="incrementar('Lechuga')">+</button></div></li>
+        <li>Limones <div class="contador"><button onclick="decrementar('Limones')">-</button><span>0</span><button onclick="incrementar('Limones')">+</button></div></li>
+        <li>Manzanas <div class="contador"><button onclick="decrementar('Manzanas')">-</button><span>0</span><button onclick="incrementar('Manzanas')">+</button></div></li>
+        <li>Naranjas <div class="contador"><button onclick="decrementar('Naranjas')">-</button><span>0</span><button onclick="incrementar('Naranjas')">+</button></div></li>
+        <li>Patata <div class="contador"><button onclick="decrementar('Patata')">-</button><span>0</span><button onclick="incrementar('Patata')">+</button></div></li>
+        <li>Patata agria <div class="contador"><button onclick="decrementar('Patata agria')">-</button><span>0</span><button onclick="incrementar('Patata agria')">+</button></div></li>
+        <li>Pepino <div class="contador"><button onclick="decrementar('Pepino')">-</button><span>0</span><button onclick="incrementar('Pepino')">+</button></div></li>
+        <li>Perejil <div class="contador"><button onclick="decrementar('Perejil')">-</button><span>0</span><button onclick="incrementar('Perejil')">+</button></div></li>
+        <li>Pimiento rojo <div class="contador"><button onclick="decrementar('Pimiento rojo')">-</button><span>0</span><button onclick="incrementar('Pimiento rojo')">+</button></div></li>
+        <li>Pimiento verde <div class="contador"><button onclick="decrementar('Pimiento verde')">-</button><span>0</span><button onclick="incrementar('Pimiento verde')">+</button></div></li>
+        <li>Platanos <div class="contador"><button onclick="decrementar('Platanos')">-</button><span>0</span><button onclick="incrementar('Platanos')">+</button></div></li>
+        <li>Puerro <div class="contador"><button onclick="decrementar('Puerro')">-</button><span>0</span><button onclick="incrementar('Puerro')">+</button></div></li>
+        <li>Sandia <div class="contador"><button onclick="decrementar('Sandia')">-</button><span>0</span><button onclick="incrementar('Sandia')">+</button></div></li>
+        <li>Tomate ensalada <div class="contador"><button onclick="decrementar('Tomate ensalada')">-</button><span>0</span><button onclick="incrementar('Tomate ensalada')">+</button></div></li>
+        <li>Tomate pera <div class="contador"><button onclick="decrementar('Tomate pera')">-</button><span>0</span><button onclick="incrementar('Tomate pera')">+</button></div></li>
+        <li>Zanahoria <div class="contador"><button onclick="decrementar('Zanahoria')">-</button><span>0</span><button onclick="incrementar('Zanahoria')">+</button></div></li>
+    </ul>
+</div>
+<h2>Cesta</h2>
+<ul id="cesta"></ul>
+<button onclick="enviarCesta()">Enviar Cesta</button>
+
+<script src="proveedores.js"></script>
+</body>
+</html>
